@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Env / secrets
+.env
+
+# Competition data — do not redistribute the official dataset in this repo
+data/*.csv
+data/*.log
+
+# Generated run artifacts (experiments/ itself holds tracked analysis SCRIPTS, not outputs)
+outputs/*
+!outputs/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
